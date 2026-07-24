@@ -4,5 +4,7 @@ numpy
 seaborn
 xgboost
 sys
+sckit-learn
+catboost
 
--e .
+# -e .
