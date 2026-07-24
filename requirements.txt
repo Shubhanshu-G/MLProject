@@ -3,8 +3,7 @@ pandas
 numpy
 seaborn
 xgboost
-sys
-sckit-learn
+scikit-learn
 catboost
 
-# -e .
+-e .
