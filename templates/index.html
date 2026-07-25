@@ -1,1 +1,91 @@
-<h1>Welcome to the Homepage</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Performance Predictor</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            text-align: center;
+            width: 500px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            text-decoration: none;
+            background: #007BFF;
+            color: white;
+            padding: 15px 35px;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Performance Predictor</h1>
+
+        <p>
+            Predict a student's Mathematics score using a Machine Learning model
+            based on demographic and academic information.
+        </p>
+
+        <a href="/predictdata" class="btn">
+            Start Prediction
+        </a>
+
+        <footer>
+            Developed using Flask & Scikit-learn
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
