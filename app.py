@@ -1,7 +1,7 @@
 import pickle
 from flask import Flask, render_template, request
 
-from matplotlib.table import CustomCell
+# from matplotlib.table import CustomCell
 import pandas as pd
 import numpy as np
 
