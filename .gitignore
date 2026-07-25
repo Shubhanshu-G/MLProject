@@ -208,6 +208,39 @@ tempCodeRunnerFile.py
 
 # PyPI configuration file
 .pypirc
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build & package files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+notebook/
+
+# VS Code
+.vscode/
+
+# Model training outputs
+catboost_info/
+
+# OS files
+.DS_Store
+Thumbs.db
 
 # Marimo
 marimo/_static/
