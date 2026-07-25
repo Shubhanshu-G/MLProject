@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from src.exception import CustomException
 from src.utils import load_object
-
+from src.logger import logging
 class PredictPipeline:
     def __init__(self):
         pass
@@ -11,8 +11,11 @@ class PredictPipeline:
     def predict(self,features):
         try:
             model_path = 'artifacts/model.pkl'
+
             preprocessor_path = os.path.join("artifacts", "preprocessor.pkl")
             model = load_object(file_path = model_path)
+            print(type(model))   ### WHich model is selcted 
+            logging.info(f"Model selcted for deployment is {type(model)}.")
 
 
             preprocessor=load_object(file_path = preprocessor_path)

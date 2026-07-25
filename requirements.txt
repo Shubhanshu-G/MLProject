@@ -1,12 +1,7 @@
-matplotlib
-pandas
+Flask
 numpy
-seaborn
-xgboost
+pandas
 scikit-learn
-catboost
 dill
-flask
 requests
-
-# -e .
+-e .
