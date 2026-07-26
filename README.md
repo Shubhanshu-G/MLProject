@@ -11,7 +11,7 @@ An end-to-end production-grade Machine Learning application that predicts a stud
 
 ## Live Deployments
 
-*   **Vercel Web App:** [Student Score Predictor App](https://vercel.com/shubhanshu3/student-score-predictor/deployments)
+*   **Vercel Web App:** [Student Score Predictor App]([(https://student-score-predictor-qq0bt5lw1-shubhanshu3.vercel.app/)])
 *   **Docker Image:** [Docker Hub Repository](https://hub.docker.com/repository/docker/dropper135/student-score-predictor)
 
 ---
