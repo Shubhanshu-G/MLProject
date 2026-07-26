@@ -71,7 +71,7 @@ An end-to-end production-grade Machine Learning application that predicts a stud
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/Shubhanshu-G/MLProject.git
+    git clone https://github.com/Shubhanshu-G/Student_Score_Prediction
     cd MLProject
     ```
 
